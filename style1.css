@@ -159,13 +159,18 @@ nav{
     padding: 20px;
     overflow-x: scroll;
 }
-.right_part{
-
+.right_part:hover{ cursor: pointer};
+.right_part img:hover{
+    /* width: 210px; */
+    zoom: 110%;
 }
+
+
 /*------------------ card-design -------------------------- */
 .card{
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
     max-width: 250px;
     gap: 8px;
     font-weight: bold;
