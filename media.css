@@ -1,30 +1,176 @@
 @media screen and (max-width:980px) {
 
+    /* ------------- navbar ------------- */
+    .index{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo{
+        margin: 0px 15px;
+    }
+    .search{
+        max-width: 90vw;
+    }
+    .search input{
+        width: 80vw;
+    }
+    .login-btn{
+        position: absolute;
+        right: 100px;
+        top: 20px;
+        padding:10px;
+        margin: 0;
+    }
+    .Navlink{
+        display: none;
+    }
+    a.cart{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        padding: 10px;
+        margin: 0;
+    }
+    /**topProduct**/
+    .topProductNav{
+        overflow-x: scroll;
+        gap: 15px;
+        justify-content: space-between;
+        padding: 10px 3vw;
+    }
+    .topproduct{
+        max-width: 70px;
+    }
+    .topproduct img{
+        max-width: 55px;
+        max-height: 55px;
+    }
     .right_part{display:none;}
-    /* card design */
+    /* -------------------- card-container -------------------------- */
+
+    
+    .slider_header h1{
+        font-size: 30px;
+    }
+    .right_part{
+        display: none;
+    }
+    .view_btn{
+        width: 90px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .card_slider{
+        border-top: 1px solid #e4e7ed;
+        gap: 17px;
+    }
+    /* ----------------------card --------------------- */
     .card{
-        max-width: 150px;
-        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+        max-width: 160px;
+        gap: 8px;
+        font-size: 15px;
     }
     .card img{
-        max-width: 150px;
-    }
-    .card img:hover{
-        zoom: 110%;
+        max-width: 160px;
+        max-height: 160px;
     }
 }
 
 @media screen  and (max-width:480px){
     .right_part{display:none;}
-    /* card design */
-    .card{
-        max-width: 100px;
-        gap: 4px;
+    
+    /* ------------- navbar ------------- */
+    .index{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
+    .logo{
+        margin: 0px 15px;
+    }
+    .search{
+        max-width: 90vw;
+    }
+    .search input{
+        width: 80vw;
+    }
+    .login-btn{
+        position: absolute;
+        right: 100px;
+        top: 17px;
+        padding:8px;
+        margin: 0;
+    }
+    .Navlink{
+        display: none;
+    }
+    a.cart{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 17px;
+        padding: 10px;
+        margin: 0;
+    }
+    /* topproducts */
+    .topProductNav{
+        overflow-x: scroll;
+        gap: 15px;
+        justify-content: space-between;
+        padding: 10px 3vw;
+    }
+    .topproduct{
+        max-width: 60px;
+    }
+    .topproduct img{
+        max-width: 45px;
+        max-height: 45px;
+    }
+    /* -------------------- card-container -------------------------- */
+
+    .main{
+        margin: 10px 3vw;
+    }
+    .card_container{
+        margin: 20px 0 ;
+    }
+    .right_part{
+        display: none;
+    }
+    .slider_header h1{
+        font-size: 17px;
+    }
+    .view_btn{
+        width: 80px;
+        font-size: 13px;
+    }
+
+    .card_slider{
+        border-top: 1px solid #e4e7ed;
+        gap: 17px;
+    }
+    /* ----------------------card --------------------- */
+    .card{
+        flex-direction: column;
+        align-items: center;
+        max-width: 130px;
+        gap: 8px;
+        font-size: 10px;
+    }
+    .card:hover{cursor: pointer;}
     .card img{
-        max-width: 100px;
+        max-width: 130px;
+        max-height: 130px;
     }
     .card img:hover{
-        zoom: 110%;
+        zoom: 107%;
     }
 }
